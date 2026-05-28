@@ -103,7 +103,6 @@ Features: EDA explorer, model results, CO2 prediction form (adjustable sliders �
 
 ---
 
-## Authors
 
 Ibrahim Salihreisoğlu · Cenker Doğru · İrem Gençer · Büke Gedik  
 Supervisor: Prof. Selma Gürler — Dokuz Eylül University, Faculty of Science
