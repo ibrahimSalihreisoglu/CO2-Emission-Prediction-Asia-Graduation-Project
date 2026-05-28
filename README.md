@@ -65,11 +65,9 @@ Google Gemini (`gemini-2.5-flash`) automatically generated 3-point country-speci
 ## Project structure
 
 ```
-├── bitirme.ipynb           # Main notebook (EDA → VBFS → modeling → SHAP → LLM)
-├── data/
-│   └── asia_panel.csv      # World Bank panel dataset (16 countries, 1990–2020)
-├── figures/                # All generated plots
-├── requirements.txt
+├── co2_tahmin_projesi.py   # Main script: EDA → Ensemble Feature Selection → modeling → SHAP → LLM
+├── Final.xlsx              # World Bank panel dataset (16 countries, 1990–2020)
+├── .gitignore
 └── README.md
 ```
 
