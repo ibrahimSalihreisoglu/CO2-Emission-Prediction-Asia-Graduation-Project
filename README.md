@@ -60,16 +60,6 @@ Key findings:
 ### 6. LLM policy generation
 Google Gemini (`gemini-2.5-flash`) automatically generated 3-point country-specific policy recommendations based on each country's top SHAP drivers.
 
----
-
-## Project structure
-
-```
-├── co2_tahmin_projesi.py   # Main script: EDA → Ensemble Feature Selection → modeling → SHAP → LLM
-├── Final.xlsx              # World Bank panel dataset (16 countries, 1990–2020)
-├── .gitignore
-└── README.md
-```
 
 ---
 
