@@ -22,7 +22,7 @@ Predicting per capita CO2 emissions across 16 Asian countries (1990–2020) usin
 - Skewness analysis across all features
 - Environmental Kuznets Curve (EKC) quadratic term derived: [ln(GDP)]²
 
-### 2. Voting-Based Feature Selection (VBFS)
+### 2. Voting-Based Feature Selection
 Three independent criteria voted on the top-K features:
 - F-statistic (`f_regression`)
 - Mutual information (`mutual_info_regression`)
@@ -80,18 +80,6 @@ Google Gemini (`gemini-2.5-flash`) automatically generated 3-point country-speci
 - Renewable energy is the most impactful lever for CO2 reduction across Asia
 - Country heterogeneity confirmed: single-policy approaches are insufficient for the region
 
----
-
-## Interactive dashboard (Streamlit)
-
-```bash
-git clone https://github.com/ibrahimSalihreisoglu/CO2-Emission-Prediction-Asia.git
-cd CO2-Emission-Prediction-Asia
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Features: EDA explorer, model results, CO2 prediction form (adjustable sliders → CatBoost inference)
 
 ---
 
@@ -101,6 +89,4 @@ Features: EDA explorer, model results, CO2 prediction form (adjustable sliders �
 
 ---
 
-
-Ibrahim Salihreisoğlu · Cenker Doğru · İrem Gençer · Büke Gedik  
 Supervisor: Prof. Selma Gürler — Dokuz Eylül University, Faculty of Science
